@@ -46,3 +46,11 @@ body {
     border: 1px solid var(--branco);/*para poder utilizar as variáveis que forma criadas no root*/
     border-radius: 5px;
 }
+
+/*Media querie para DESKTOP*/
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: calc((100% - 940px) / 2);
+        padding-right: calc((100% - 940px) / 2);
+    }
+}

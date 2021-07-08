@@ -31,3 +31,31 @@
 .chamada__botao {
     width: 100%;
 }
+
+/*screen -> tela
+*print -> impressão
+*/
+/*Media querie para TABLET*/
+@media screen and (min-width: 768px) {
+    /* .chamada {
+        background-color: pink;
+    } */
+    .chamada__texto {
+        max-width: 600px;
+    }
+}
+
+/*Media querie para DESKTOP*/
+@media screen and (min-width: 1024px) {
+    .chamada {
+        background-image: url(../img/bg-intro.jpg);
+        background-size: cover;
+
+        padding-top: 8.25rem;
+    }
+
+    .chamada__titulo {
+        font-size: 3.25rem;
+        margin-bottom: 2rem;
+    }
+}
